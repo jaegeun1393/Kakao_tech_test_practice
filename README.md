@@ -18,3 +18,6 @@ For example, in the case of “ababcdcdababcdcd”, if a character is cut into o
 As another example, in the case of “abcabcdede”, if the character is cut into two units and compressed, it becomes “abcabc2de”, but if it is cut into three units, it becomes “2abcdede” and 3 units is the shortest compression method. At this time, you can cut it in units of 3 and paste the remaining string as it is.
 
 When the string s to be compressed is given as a parameter, complete the solution function to return the length of the shortest string expressed by cutting the string in units of one or more in the manner described above.
+
+
+You also can practice this problem in https://programmers.co.kr/learn/courses/30/lessons/60057

@@ -30,7 +30,7 @@ int solution(string s) {
                 i += front_num;
             }
         }
-    } //where i for loop ends
+    } 
     
     answer = ans.size();
     return answer;

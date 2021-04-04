@@ -13,15 +13,18 @@ int solution(string s) {
         if(sub == s.substr(j, i)) {
           count++;
         } else {
-          if(count > 1) {
-            output += to_string(count);
+          if(count > 1) {output += to_string(count);}
             output += sub;
             sub = s.substr(j, i);
             count = 1;
-          }
         }
       //Check  cout << output << endl;
       }
+    
+      if(count > 1) {output += to_string(count);}
+      output += sub;
+      cout << output << endl;
+      answer = output.size();
 
     }
     return answer;
